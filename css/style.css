@@ -45,3 +45,39 @@ h1 {
   text-transform: uppercase;
   color: #777
 }
+
+.inputContainer {
+  height: 60px;
+  border-top: 1px solid #e5e5e5;
+  position: relative;
+  overflow: hidden;
+}
+
+.inputContainer.last {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+inputContainer.half.last.right {
+  border-left: 1px solid #e5e5e5;
+
+}
+input[type="date"], input[type="text"], select {
+  height: 100%;
+  width: 100%;
+  padding: 0 20px;
+  position: absolute;
+  top: 0;
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: none;
+  border: none;
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  -webkit-transition: backround 0.3s;
+          transition: backround 0.3s;
+
+}
