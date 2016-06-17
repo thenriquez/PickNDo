@@ -199,3 +199,11 @@ button {
   background: #444;
   padding-left: 15px;
 }
+.taskAdd:hover {
+  background: #303030;
+
+}
+.taskDelete:hover {
+  background: #e74c3c;
+  padding-left: 30px
+}
