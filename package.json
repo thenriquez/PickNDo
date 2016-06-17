@@ -1,0 +1,22 @@
+{
+  "name": "pickndo",
+  "version": "1.0.0",
+  "description": "an todo app with angular js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenriquez/PickNDo.git"
+  },
+  "author": "terrence henriquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thenriquez/PickNDo/issues"
+  },
+  "homepage": "https://github.com/thenriquez/PickNDo#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
