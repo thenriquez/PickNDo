@@ -187,3 +187,15 @@ button {
   -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
+
+.icon {
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  font-size: 20px;
+}
+
+.taskAdd {
+  background: #444;
+  padding-left: 15px;
+}
