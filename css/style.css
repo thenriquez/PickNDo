@@ -91,9 +91,35 @@ input[type="date"]:focus, input[type="text"]:focus,
       background: #ecf0f1;
 
     }
-    ::-webkit-input-placehold {
+    ::-webkit-input-placeholder {
       color: lightgrey;
       font-weight: normal;
       -webit-transition: all 0.3s;
               transition: all 0.3s;
+    }
+    ::-moz-input-placeholder {
+      color: lightgrey;
+      font-weight: normal;
+      transition: all 0.3s
+    }
+
+    ::-ms-input-placeholder {
+        color: lightgrey;
+        font-weight: normal;
+        transition: all 0.3s;
+    }
+    input:-moz-placeholder {
+      color: lightgrey;
+      font-weight: normal;
+      transition: all 0.3s;
+
+    }
+    input:focus::-webkit-input-placeholder {
+      color: #95a5a6;
+      font-weight: bold;
+    }
+    input:focus::-webkit-input-placeholder {
+      color: #95a5a6;
+      font-weight: bold;
+
     }
