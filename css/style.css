@@ -336,5 +336,13 @@ footer a {
   top: 35%;
   right: 0;
   margin-right: 20px;
+  color: #777;
+  pointer-events: none;
 
+}
+.taskCategory option {
+  background: #fff;
+  border: none;
+  outline: none;
+  padding: 0 100px;
 }
