@@ -241,3 +241,54 @@ taksItem {
   display: block;
   margin-left: 41px;
 }
+
+.fa-calendar {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+[class*='category-'] {
+  display: inline-block;
+  font-size: 10px;
+  background: #444;
+  vertical-align: middle;
+  color: #fff;
+  padding: 10px;
+  width: 75px;
+  text-align: center;
+  border-radius: 2px;
+  float: right;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.category- {
+  background: #transparent;
+}
+.category-Personal {
+  background:#2980b9;
+
+}
+.category-Work {
+background: #8e44ad;
+}
+.category-School {
+  background: #f39c12;
+}
+.category-Cleaning {
+  background: #16a085;
+}
+.category-Family {
+  background: #d35400;
+}
+footer {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #777;
+}
+footer a {
+  color: #f39c12
+
+}
