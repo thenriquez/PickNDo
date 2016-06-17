@@ -292,3 +292,49 @@ footer a {
   color: #f39c12
 
 }
+
+.taskCheckbox {
+  -webkit-appearance: none;
+          appearance: none;
+  webkit-transition: all 0.3s;
+          transition: all 0.3s;
+    display: inline-block;
+    cursor: pointer;
+    width: 19px;
+    height: 19px;
+    vertical-align: middle;
+}
+.taskCheckbox:focus {
+  outline: none;
+}
+.taskCheckbox:before, .taskCheckbox:checked:before {
+  font-family: 'FontAwesome';
+  color: #444;
+  font-size: 20px;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+
+}
+.taskCheckbox:before {
+  content: '/f096';
+}
+.taskCheckbox:checked:before {
+  content: '/f14a';
+  color: #16a085;
+}
+.taskCategory {
+  -webkit-appearance:none;
+          appearance:none;
+  cursor: pointer;
+  padding-left: 16.5px;
+  background: #fff;
+
+}
+.selectArrow {
+  position: absolute;
+  z-index: 10;
+  top: 35%;
+  right: 0;
+  margin-right: 20px;
+
+}
