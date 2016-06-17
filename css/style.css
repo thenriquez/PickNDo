@@ -81,3 +81,19 @@ input[type="date"], input[type="text"], select {
           transition: backround 0.3s;
 
 }
+input=[type="date"]{
+  cursor: pointer;
+
+}
+input[type="date"]:focus, input[type="text"]:focus,
+    select:focus {
+      outline: none;
+      background: #ecf0f1;
+
+    }
+    ::-webkit-input-placehold {
+      color: lightgrey;
+      font-weight: normal;
+      -webit-transition: all 0.3s;
+              transition: all 0.3s;
+    }
